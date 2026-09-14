@@ -118,3 +118,25 @@
     font-size: 0.85rem;
     font-weight: 700;
 }
+/* panel */
+.panel{
+    height: 38px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.panel-option p{
+    display: inline;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 5px 0px 6px;
+    padding: 8px 5px;
+}
+.panel-option{
+    width: 70%;
+}
+.panel-all{
+    width: 59px;
+    margin-left: 0;
+}
