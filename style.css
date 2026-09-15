@@ -140,3 +140,99 @@
     width: 59px;
     margin-left: 0;
 }
+
+/* Hero section */
+.hero-section{
+    background-image: url(../AmazonClone/heroimage.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-section-content{
+    background-color: #f5f6f6;
+    font-size: 14px;
+    height: 20px;
+    width: 1120px;
+    padding: 10px 12px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.hero-section-content a{
+    color: #2162a1;
+}
+/* Shop section (cards) */
+.shop-box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ab00fa;
+}
+.box1{
+    width: 360px;
+    height: 385px;
+    background-color: #ffffff;
+    padding: 20px 0px 15px 0px;
+    border: 1px solid black;
+}
+.box2{
+    width: 360px;
+    height: 385px;
+    background-color: #ffffff;
+    padding: 20px 0px 15px 0px ;
+    border: 1px solid black;
+}
+.box3{
+    width: 360px;
+    height: 385px;
+    background-color: #ffffff;
+    padding: 20px 0px 15px 0px ;
+    border: 1px solid black;
+}
+.box1-image{
+    background-image: url(../AmazonClone/box1Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:300px;
+    height:330px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box1-heading{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.box1-paragraph{
+    color: #2162a1;
+    margin-top: 14px;
+    margin-left: 30px;
+}
+.box1-paragraph a{
+    text-decoration: none;
+}
+.box2-image{
+    background-image: url(../AmazonClone/box2Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:300px;
+    height:330px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box3-image{
+    background-image: url(../AmazonClone/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:300px;
+    height:330px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
